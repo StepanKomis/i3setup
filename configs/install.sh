@@ -13,5 +13,5 @@ while read -r package; do
 done < installed_packages.txt
 
 cp ./configs/* ~/.config/
-cp ./usr/bin/neofetch
+cp ./usr/bin/neofetch /usr/bin/neofetch
 echo "All packages installed successfully."
