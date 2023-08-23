@@ -1,0 +1,23 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#05252c"
+    background_darkness = 0.75
+    background_type = transparent
+    font = MesloLGS Nerd Font Propo 10
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 5000
+    use_system_font = False
+    title_hide_sizetext = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
